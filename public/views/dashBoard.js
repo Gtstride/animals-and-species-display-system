@@ -13,8 +13,8 @@
                   contentType: 'application/json',
                   data: JSON.stringify(userdetail),
                   success: function( data ){
-                      // $('#response').html( JSON.stringify( data ) );
-                      console.log(data)
+                      $('#response').html( JSON.stringify( data ) );
+                    //   console.log(data)
                   },
                 //   jqXhr, textStatus, errorThrown 
                   error: function(err){
