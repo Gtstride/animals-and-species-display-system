@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "email": "shineyourlight@gmail.com",
+      "password": "kjadskjsdakj",
+      "password-repeat": "kjdskjskjs",
+      "id": 13
+    },
+
+    {
+      "email": "shineyourlight@gmail.com",
+      "password": "liahallqa",
+      "password-repeat": "illqalaljalajl",
+      "id": 19
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
