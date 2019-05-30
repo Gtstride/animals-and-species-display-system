@@ -13,7 +13,8 @@
                   contentType: 'application/json',
                   data: JSON.stringify(userdetail),
                   success: function( data ){
-                      $('#response').html( JSON.stringify( data ) );
+                      $('#response').html( JSON.stringify( data ));
+                      window.location.replace("http://localhost:3000/views/register.html");
                     //   console.log(data)
                   },
                 //   jqXhr, textStatus, errorThrown 
