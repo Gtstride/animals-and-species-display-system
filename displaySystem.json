@@ -34,6 +34,108 @@
       "password": "12345kiki",
       "password-repeat": "12345kiki",
       "id": 22
+    },
+    {
+      "email": "lewisagho47@gmail.com",
+      "password": "loversday12345",
+      "password-repeat": "loversday12345",
+      "id": 23
+    },
+    {
+      "email": "gogog@gmail.com",
+      "password": "gogo12",
+      "password-repeat": "giogo12",
+      "id": 24
+    },
+    {
+      "email": "eehubnigeria@gmail.com",
+      "password": "pass19//??",
+      "password-repeat": "pass19//??",
+      "id": 25
+    },
+    {
+      "email": "thisemail@you.com",
+      "password": "you",
+      "password-repeat": "you",
+      "id": 26
+    },
+    {
+      "email": "giveit@zoho.com",
+      "id": 27
+    },
+    {
+      "email": "givetome@yah.com",
+      "password": "trew",
+      "password-repeat": "ytre",
+      "id": 28
+    },
+    {
+      "email": "thisemail@you.com",
+      "password": "tyui",
+      "password-repeat": "tyui",
+      "id": 29
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name-of-animal": "Lion",
+      "species-of-animal": "Wild-cat",
+      "brief-history": "It is callled king of the Jungle"
+    },
+    {
+      "animal-name": "Lion",
+      "species-of-animal": "wild ciat",
+      "history": "king of the jungle",
+      "id": 2
+    },
+    {
+      "animal-name": "Eage",
+      "species-of-animal": "King bird",
+      "history": "This is like the kings of the bird",
+      "id": 3
+    },
+    {
+      "animal-name": "",
+      "species-of-animal": "",
+      "history": "",
+      "id": 4
+    },
+    {
+      "animal-name": "",
+      "species-of-animal": "",
+      "history": "",
+      "id": 5
+    },
+    {
+      "animal-name": "Dog",
+      "species-of-animal": "Rolese",
+      "history": "Man's best friend",
+      "id": 6
+    },
+    {
+      "animal-name": "Dog",
+      "species-of-animal": "Rolese",
+      "history": "",
+      "id": 7
+    },
+    {
+      "animal-name": "",
+      "species-of-animal": "",
+      "history": "",
+      "id": 8
+    },
+    {
+      "animal-name": "",
+      "species-of-animal": "",
+      "history": "",
+      "id": 9
+    },
+    {
+      "animal-name": "",
+      "species-of-animal": "",
+      "history": "",
+      "id": 10
     }
   ],
   "comments": [
