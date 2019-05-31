@@ -16,8 +16,7 @@
                       $('#response').html( JSON.stringify( data ));
                       window.location.replace("http://localhost:3000/views/register.html");
                     //   console.log(data)
-                  },
-                //   jqXhr, textStatus, errorThrown 
+                  }, 
                   error: function(err){
                     //  alert( errorThrown );
                     console.log('error', err)
@@ -68,9 +67,7 @@
                     window.location.replace("http://localhost:3000/views/dashBoard.html");
                   //   console.log(data)
                 },
-              //   jqXhr, textStatus, errorThrown 
                 error: function(err){
-                  //  alert( errorThrown );
                   console.log('error', err)
                 }
             });

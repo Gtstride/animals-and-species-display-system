@@ -68,6 +68,12 @@
       "password": "trew",
       "password-repeat": "ytre",
       "id": 28
+    },
+    {
+      "email": "thisemail@you.com",
+      "password": "tyui",
+      "password-repeat": "tyui",
+      "id": 29
     }
   ],
   "animals": [
@@ -94,7 +100,13 @@
       "species-of-animal": "",
       "history": "",
       "id": 4
-    }
+    },
+    {
+      "animal-name": "",
+      "species-of-animal": "",
+      "history": "",
+      "id": 5
+    },
     {
       "animal-name": "Dog",
       "species-of-animal": "Rolese",
