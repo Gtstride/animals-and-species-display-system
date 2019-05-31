@@ -70,8 +70,6 @@
       "id": 28
     }
   ],
-  
-
   "animals": [
     {
       "id": 1,
@@ -90,10 +88,44 @@
       "species-of-animal": "King bird",
       "history": "This is like the kings of the bird",
       "id": 3
+    },
+    {
+      "animal-name": "",
+      "species-of-animal": "",
+      "history": "",
+      "id": 4
+    }
+    {
+      "animal-name": "Dog",
+      "species-of-animal": "Rolese",
+      "history": "Man's best friend",
+      "id": 6
+    },
+    {
+      "animal-name": "Dog",
+      "species-of-animal": "Rolese",
+      "history": "",
+      "id": 7
+    },
+    {
+      "animal-name": "",
+      "species-of-animal": "",
+      "history": "",
+      "id": 8
+    },
+    {
+      "animal-name": "",
+      "species-of-animal": "",
+      "history": "",
+      "id": 9
+    },
+    {
+      "animal-name": "",
+      "species-of-animal": "",
+      "history": "",
+      "id": 10
     }
   ],
-
-  
   "comments": [
     {
       "id": 1,

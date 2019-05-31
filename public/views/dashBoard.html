@@ -1,8 +1,9 @@
- 
+     
     <!-- contact -->
     <link href="/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
      <link href="/css/portfolio.css" type="text/css" rel="stylesheet" media="all">
     <link href="/css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <script src="../jquery-3.1.0.min.js"></script>
     <script src="dashBoard.js"></script>
@@ -21,30 +22,81 @@
                               <label>
                                   Name of animal
                               </label>
-                              <input class="form-control" type="text" placeholder="Name of animal" id="name-of-animal" name="email" required="">
+                              <input class="form-control" type="text" placeholder="Name of animal" id="name-of-animal" required="">
                           </div>
                           <div class="form-group">
                               <label>
                                   Species
                               </label>
-                              <input class="form-control" type="text" placeholder="Species" id="species-of-animal" name="email" required="">
+                              <input class="form-control" type="text" placeholder="Species" id="species-of-animal"  required="">
                           </div>
                           <div class="form-group">
                               <label>
-                                  Brief detail about the animal
+                                  Description
                               </label>
-                              <textarea placeholder="Please enter brief history and detail of the animal" id="brief-history" class="form-control"></textarea>
+                              <textarea placeholder="Please enter brief history and detail of the animal" id="brief-history" class="form-control" required></textarea>
                           </div>
                           <div class="form-group mb-0">
                               <button type="submit" id="upload" class="btn btn-w3layouts btn-block  bg-theme text-white w-100 font-weight-bold text-uppercase"
                                   data-blast="bgColor">Send</button>
                           </div>
-                      </form>
-                  </div>
+                      </form>  
               </div>
           </div>
-         </div>
-      </div>
-
+         </div>  
   </section>
+</div>
+
 <!-- file upload -->
+
+<!-- THE TABLE TO SHOW ALL DATA ON YOUR BACKEND -->
+<table class="table table-hover view-all">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name Of Animal</th>
+            <th scope="col">Species of animal</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <script>
+
+    //   $(document).ready(function(){
+    //       $.getJSON("displaySystem.json", function(data){
+    //         let animaldetails = "";
+    //         $.each(data, function(key, value){
+    //             animaldetails += '<tr>';
+    //             animaldetails += '<td>'+= value.name-of-animal +'</td>';
+    //             animaldetails += '<td>'+= value.species-of-animal +'</td>';
+    //             animaldetails += '<td>'+= value.brief-history +'</td>';
+    //             animaldetails += '<tr>';
+    //         });
+    //         $('animals').append(animaldetails);
+    //       });
+    //   });
+  
+      </script>
+    
+            
+            
