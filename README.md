@@ -1,0 +1,3 @@
+Animal ans species display system, is a basic web application, that has a collections of difference animals and their different species. 
+As a web app, users can see a full list of all animals, click and view basic and full details about the particular animal, and also make recommendations to the admin of the system, possible other things, not displayed by them.
+So this application can be used by basically anyone who visits the site and anyone wanting to make reference to these animals, and i wouldn't forget to mention here that this application would be of immense help to site viewers and all those looking to make researches on animal and. So to get more on this, you should visit the link to get me information. "https:animal-display-system.com"
